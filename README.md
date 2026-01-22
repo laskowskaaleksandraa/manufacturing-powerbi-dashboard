@@ -34,6 +34,7 @@ Star schema with 6 dimension tables and 4 fact tables.
 Base granularity:
 - shift level (team-related facts),
 - machine level (equipment-related facts).
+
 Higher aggregation levels (line, factory) derived via correct weighted logic.
 Time-based KPIs handled as non-additive metrics with explicit aggregation rules.
 All data are synthetic, generated in Python with AI assistance, based on realistic process rules and controlled variability.
