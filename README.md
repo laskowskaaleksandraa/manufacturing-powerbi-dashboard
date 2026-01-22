@@ -27,6 +27,7 @@ The dashboard is structured into three analytical levels:
 1. Factory level: High-level overview of KPIs and trends, supporting quick orientation and prioritisation.
 2. Line level: Root-cause exploration for Availability and Yield, including short-term variability, target comparison, and What-If analysis.
 3. Team and Machine level (drill-through): Local benchmarking using contribution/effectiveness KPIs to identify organisational and equipment-related issues.
+
 The analytical flow follows a clear pattern: orientation → narrowing → exploration.
 
 Data Model
@@ -79,13 +80,9 @@ Live Report
 Power BI Report: https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9
 
 Author
-
 Aleksandra Laskowska
-
 Data Analyst / Manufacturing Analytics
-
 LinkedIn: www.linkedin.com/laskowskaaleksandra/
-
 
 Notes
 This project is part of a personal portfolio and was created for learning and demonstration purposes.
