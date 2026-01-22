@@ -70,18 +70,22 @@ Limitations
 All limitations are documented and reflected in dashboard design decisions.
 
 Tools & Technologies
-Power BI – data model, DAX measures, dashboard design
-Python – synthetic data generation
-DAX – KPI logic, non-additive aggregation, time intelligence
-Figma – layout and visual design preparation
+- Power BI – data model, DAX measures, dashboard design
+- Python – synthetic data generation
+- DAX – KPI logic, non-additive aggregation, time intelligence
+- Figma – layout and visual design preparation
 
 Live Report
 Power BI Report: https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9
 
 Author
+
 Aleksandra Laskowska
+
 Data Analyst / Manufacturing Analytics
+
 LinkedIn: www.linkedin.com/laskowskaaleksandra/
+
 
 Notes
 This project is part of a personal portfolio and was created for learning and demonstration purposes.
