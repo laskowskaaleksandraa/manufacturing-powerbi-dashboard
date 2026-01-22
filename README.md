@@ -76,12 +76,12 @@ DAX – KPI logic, non-additive aggregation, time intelligence
 Figma – layout and visual design preparation
 
 Live Report
-Power BI Report (public link):
+Power BI Report: https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9
 
 Author
 Aleksandra Laskowska
 Data Analyst / Manufacturing Analytics
-LinkedIn: (insert link)
+LinkedIn: www.linkedin.com/laskowskaaleksandra/
 
 Notes
 This project is part of a personal portfolio and was created for learning and demonstration purposes.
