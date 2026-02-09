@@ -82,7 +82,7 @@ Power BI Report: https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4
 Author
 Aleksandra Laskowska
 Data Analyst / Manufacturing Analytics
-LinkedIn: www.linkedin.com/laskowskaaleksandra/
+LinkedIn: [www.linkedin.com/laskowskaaleksandra/](https://www.linkedin.com/in/laskowskaaleksandra/)
 
 Notes
 This project is part of a personal portfolio and was created for learning and demonstration purposes.
