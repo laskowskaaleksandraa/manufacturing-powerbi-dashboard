@@ -1,11 +1,11 @@
 # manufacturing-powerbi-dashboard
-Power BI dashboard for manufacturing KPI analysis (OEE, Availability, Yield) with synthetic production data.
+Management-oriented Power BI dashboard for manufacturing performance analysis, using OEE-based KPIs (Availability, Yield) and synthetic production data.
 
 
 Manufacturing Performance Dashboard – Power BI
 
 Overview
-This repository presents an end-to-end manufacturing performance dashboard built in Power BI, focused on analysing key production losses in an automotive electronics environment.
+This repository presents an end-to-end manufacturing performance dashboard built in Power BI, focused on analysing key production losses to support management-level performance decisions in an automotive electronics environment.
 
 The project demonstrates:
 - KPI design based on standard OEE methodology,
@@ -14,7 +14,7 @@ The project demonstrates:
 - realistic synthetic data modelling,
 - structured dashboard architecture and interaction logic.
 
-The dashboard is designed to support both operational and strategic decision-making during regular management review meetings.
+The dashboard is designed to support both operational and strategic decision-making by providing a shared, KPI-driven view for regular management review meetings.
 
 Dashboard Scope
 The report analyses the main types of production losses:
@@ -38,7 +38,7 @@ Base granularity:
 
 Higher aggregation levels (line, factory) derived via correct weighted logic.
 Time-based KPIs handled as non-additive metrics with explicit aggregation rules.
-All data are synthetic, generated in Python with AI assistance, based on realistic process rules and controlled variability.
+All data are synthetic, generated in Python with controlled AI assistance, based on realistic process rules and controlled variability.
 
 Synthetic Data Assumptions
 The synthetic dataset represents a mini-factory with:
