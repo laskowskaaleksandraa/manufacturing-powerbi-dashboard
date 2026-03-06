@@ -9,7 +9,7 @@ This repository presents an end-to-end manufacturing performance dashboard built
 
 The project demonstrates:
 - KPI design based on standard OEE methodology,
-- correct handling of non-additive metrics,
+- correct handling of non-additive KPI aggregation,
 - multi-level analysis (factory → line → team / machine),
 - realistic synthetic data modelling,
 - structured dashboard architecture and interaction logic.
@@ -19,7 +19,7 @@ The dashboard is designed to support both operational and strategic decision-mak
 Dashboard Scope
 The report analyses the main types of production losses:
 1. Availability losses (long downtime and microstops; planned stops excluded by design)
-2. Yield losses (First Pass Yield, based on scrap generation; no rework included)
+2. Yield losses (First Pass Yield used as a quality proxy, based on scrap generation; no rework included)
 3. Performance losses are intentionally not analysed due to data model limitations and are documented as a conscious simplification.
 
 Analytical Layers
@@ -41,10 +41,11 @@ Time-based KPIs handled as non-additive metrics with explicit aggregation rules.
 All data are synthetic, generated in Python with controlled AI assistance, based on realistic process rules and controlled variability.
 
 Synthetic Data Assumptions
+
 The synthetic dataset represents a mini-factory with:
 - 3 production lines,
 - 5 machines per line,
-- single product across all lines,
+- a single product across all lines,
 - 24/7 operation (3 shifts per day).
 
 Realism is introduced through:
@@ -68,16 +69,17 @@ Limitations
 - Simplified production planning and execution logic,
 - No detailed downtime reason hierarchy,
 - No labour constraints, material lead times, or learning curves.
+
 All limitations are documented and reflected in dashboard design decisions.
 
 Tools & Technologies
-- Power BI – data model, DAX measures, dashboard design
-- Python – synthetic data generation
-- DAX – KPI logic, non-additive aggregation, time intelligence
-- Figma – layout and visual design preparation
+- Power BI – data model, DAX measures, dashboard design,
+- Python – synthetic data generation,
+- DAX – KPI logic, non-additive aggregation, time intelligence,
+- Figma – layout and visual design preparation.
 
 Live Report
-Power BI Report: https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9
+Power BI Report: [Factory Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9)
 
 Author
 Aleksandra Laskowska
