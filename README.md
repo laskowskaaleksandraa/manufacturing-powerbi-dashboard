@@ -79,7 +79,7 @@ Tools & Technologies
 - Figma – layout and visual design preparation.
 
 Live Report
-Power BI Report: [Factory Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9)
+Power BI Report: <iframe title="Factory Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 Author
 Aleksandra Laskowska
