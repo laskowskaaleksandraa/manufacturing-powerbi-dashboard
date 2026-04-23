@@ -86,10 +86,9 @@ All limitations are documented and reflected in dashboard design decisions.
 - Figma – layout and visual design preparation.
 
 
----
 🔗 **PowerBI dashboard:**  
 [Open Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9)
----
+
 
 Author
 
