@@ -2,16 +2,16 @@
 
 ## Overview
 
-This repository presents an end-to-end manufacturing performance dashboard built in Power BI, focused on analysing key production losses to support management-level performance decisions in an automotive electronics environment.
+This repository presents an end-to-end manufacturing performance dashboard built in Power BI, focused on analysing production losses and manufacturing performance in an automotive electronics environment.
 
-The project demonstrates:
+The project includes:
 - KPI design based on standard OEE methodology,
 - correct handling of non-additive KPI aggregation,
 - multi-level analysis (factory → line → team / machine),
 - realistic synthetic data modelling,
-- structured dashboard architecture and interaction logic.
+- consistent dashboard structure and interaction logic.
 
-The dashboard is designed to support both operational and strategic decision-making by providing a shared, KPI-driven view for regular management review meetings.
+The dashboard supports regular performance review and analysis across different manufacturing levels.
 
 
 ## Dashboard Scope
@@ -29,7 +29,7 @@ The dashboard is structured into three analytical levels:
 2. Line level: Root-cause exploration for Availability and Yield, including short-term variability, target comparison, and What-If analysis.
 3. Team and Machine level (drill-through): Local benchmarking using contribution/effectiveness KPIs to identify organisational and equipment-related issues.
 
-The analytical flow follows a clear pattern: orientation → narrowing → exploration.
+The analytical flow follows the same logic across pages: orientation → narrowing → exploration.
 
 
 ## Data Model
@@ -52,7 +52,7 @@ The synthetic dataset represents a mini-factory with:
 - a single product across all lines,
 - 24/7 operation (3 shifts per day).
 
-Realism is introduced through:
+The dataset includes:
 - monthly bias per line,
 - shock days and bad weeks,
 - partial correlations (never deterministic),
@@ -67,7 +67,7 @@ The data model intentionally avoids flat or perfectly proportional behaviour.
 - Effectiveness KPIs for local analysis,
 - Consistent tooltip logic (MTD, YTD, MoM, targets),
 - What-If scenarios to estimate improvement impact,
-- Clean, repeatable interaction patterns across pages.
+- Consistent interaction logic across dashboard pages.
 
 
 ## Limitations
@@ -88,6 +88,7 @@ All limitations are documented and reflected in dashboard design decisions.
 
 🔗 **PowerBI dashboard:**  
 [Open Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9)
+
 
 
 Author
