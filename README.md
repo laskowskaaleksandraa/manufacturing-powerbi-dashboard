@@ -27,7 +27,7 @@ The report analyses the main types of production losses:
 The dashboard is structured into three analytical levels:
 1. Factory level: High-level overview of KPIs and trends, supporting quick orientation and prioritisation.
 2. Line level: Root-cause exploration for Availability and Yield, including short-term variability, target comparison, and What-If analysis.
-3. Team and Machine level (drill-through): Local benchmarking using contribution/effectiveness KPIs to identify organisational and equipment-related issues.
+3. Team and Machine level: Local benchmarking using effectiveness and impact KPIs to identify organisational and equipment-related issues.
 
 The analytical flow follows the same logic across pages: orientation → narrowing → exploration.
 
@@ -62,7 +62,8 @@ The data model intentionally avoids flat or perfectly proportional behaviour.
 
 
 ## Key Features
-- Standard OEE-based KPI framework (Availability, Performance, Yield, OEE),
+
+- Standard OEE-based KPI framework (OEE, Yield, Availability, Performance),
 - Correct factory-level aggregation using planned production as weight,
 - Effectiveness KPIs for local analysis,
 - Consistent tooltip logic (MTD, YTD, MoM, targets),
@@ -71,6 +72,7 @@ The data model intentionally avoids flat or perfectly proportional behaviour.
 
 
 ## Limitations
+
 - Synthetic data (no real production data),
 - Simplified production planning and execution logic,
 - No detailed downtime reason hierarchy,
@@ -86,18 +88,19 @@ All limitations are documented and reflected in dashboard design decisions.
 - Figma – layout and visual design preparation.
 
 
+## Project Evolution
+
+The dashboard was improved after the initial release based on additional knowledge gained over time.
+
+Key improvements:
+- Simplified Factory Overview by moving strategic YTD KPIs into KPI tooltips.
+- Reduced cognitive load and improved KPI hierarchy.
+- Replaced low-value scatter plot with Team Scrap Distribution analysis.
+- Improved navigation logic by removing drill-through filtering that reduced visibility of benchmarking tables.
+
+
 🔗 **PowerBI dashboard:**  
 [Open Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzNkMTZjMjEtNjY4Yy00Yjk4LTk1ZjEtMjU2ZWUyOGJiZjNjIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9)
-
-
-
-Author
-
-Aleksandra Laskowska
-
-Data Analyst / Manufacturing Analytics
-
-LinkedIn: [www.linkedin.com/laskowskaaleksandra/](https://www.linkedin.com/in/laskowskaaleksandra/)
 
 
 Notes
